@@ -37,6 +37,10 @@ p {
   width: 100%;
 }
 
+.info-afisha .description {
+    margin-bottom: 20px;
+}
+
 main {
   display: flex;
   justify-content: center;
@@ -51,5 +55,5 @@ main {
 }
 
 .info-afisha ul {
-    margin: 20px 0;
+    margin: 15px 0;
 }
