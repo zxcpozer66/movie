@@ -58,3 +58,22 @@ main {
 .info-afisha ul {
     margin: 15px 0;
 }
+
+.btn-buy {
+    background-color: #05B093;
+    border-radius: 26px;
+    padding: 15px 20px;
+    color: white;
+    margin: 25px 0;
+    font-weight: 600;
+}
+
+.galeria img{ 
+    width: 400px;
+    height: 200px;
+}
+
+.galeria {
+    display: flex;
+    gap: 20px;
+}
