@@ -29,11 +29,16 @@ header {
     
 }
 
-footer nav ul {
+header nav ul {
     padding-left: 20px;
 }
 
-footer nav ul li {
+a {
+    text-decoration: none;
+    color: white;
+}
+
+header nav ul li {
     display: inline-block;
     position: relative;
     align-items: center;
