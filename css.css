@@ -1,108 +1,106 @@
 * {
-    padding: 0;
-    margin: 0;
-    border: none;
-    text-decoration: none;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  border: none;
+  text-decoration: none;
+  box-sizing: border-box;
 }
 
 @import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap");
 
 :root {
-    --black: rgb(22, 22, 22);
+  --black: rgb(22, 22, 22);
 }
 
 body {
-    font-family: "EB Garamond", serif;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
+  font-family: "EB Garamond", serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 header {
-    display: flex;
-    background-color: var(--black);
-    color: white;
-    padding: 15px;
-    justify-content: space-between;
-    align-items: center;
-    
+  display: flex;
+  background-color: var(--black);
+  color: white;
+  padding: 15px;
+  justify-content: space-between;
+  align-items: center;
 }
 
 header nav ul {
-    padding-left: 20px;
+  padding-left: 20px;
 }
 
 a {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
 
 header nav ul li {
-    display: inline-block;
-    position: relative;
-    align-items: center;
-    margin: 20px;
-    list-style: square;
-    color: white;
+  display: inline-block;
+  position: relative;
+  align-items: center;
+  margin: 20px;
+  list-style: square;
+  color: white;
 }
 
 footer nav ul li a {
-    color: white;
+  color: white;
 }
 
-
 footer {
-    background-color: var(--black);
-    color: white;
-    padding: 40px 20px 20px;
-    margin-top: auto;
+  background-color: var(--black);
+  color: white;
+  padding: 40px 20px 20px;
+  margin-top: auto;
 }
 
 .footer-content {
-    max-width: 1200px;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-    gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 40px;
 }
 
 .footer-section h3 {
-    color: white;
-    margin-bottom: 20px;
-    font-size: 18px;
-    font-weight: 600;
+  color: white;
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-weight: 600;
 }
 
 .footer-section p {
-    margin-bottom: 10px;
-    line-height: 1.6;
+  margin-bottom: 10px;
+  line-height: 1.6;
 }
 
 .footer-section ul {
-    list-style: none;
+  list-style: none;
 }
 
 .footer-section ul li {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .footer-section ul li a {
-    color: white;
-    transition: color 0.3s ease;
+  color: white;
+  transition: color 0.3s ease;
 }
 
 .footer-section ul li a:hover {
-    color: #ccc;
+  color: #ccc;
 }
 
 .footer-copyright {
-    grid-column: 1 / -1;
-    text-align: center;
-    padding-top: 20px;
-    border-top: 1px solid #333;
-    margin-top: 20px;
-    color: #999;
+  grid-column: 1 / -1;
+  text-align: center;
+  padding-top: 20px;
+  border-top: 1px solid #333;
+  margin-top: 20px;
+  color: #999;
 }
 
 .block-afisha p {
@@ -138,7 +136,7 @@ footer {
 }
 
 .info-afisha .description {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 main {
@@ -155,24 +153,28 @@ main {
 }
 
 .info-afisha ul {
-    margin: 15px 0;
+  margin: 15px 0;
 }
 
 .btn-buy {
-    background-color: #05B093;
-    border-radius: 26px;
-    padding: 15px 20px;
-    color: white;
-    margin: 25px 0;
-    font-weight: 600;
+  background-color: #05b093;
+  border-radius: 26px;
+  padding: 15px 20px;
+  color: white;
+  margin: 25px 0;
+  font-weight: 600;
 }
 
-.galeria img{ 
-    width: 400px;
-    height: 200px;
+.galeria img {
+  width: 400px;
+  height: 200px;
 }
 
 .galeria {
-    display: flex;
-    gap: 20px;
+  display: flex;
+  gap: 20px;
+}
+li:before {
+  content: "❖";
+  padding-right: 5px;
 }
