@@ -29,11 +29,11 @@ header {
     
 }
 
-nav ul {
+footer nav ul {
     padding-left: 20px;
 }
 
-nav ul li {
+footer nav ul li {
     display: inline-block;
     position: relative;
     align-items: center;
@@ -42,13 +42,10 @@ nav ul li {
     color: white;
 }
 
-nav ul li a {
+footer nav ul li a {
     color: white;
 }
 
-main {
-    flex: 1;
-}
 
 footer {
     background-color: var(--black);
@@ -101,4 +98,76 @@ footer {
     border-top: 1px solid #333;
     margin-top: 20px;
     color: #999;
+}
+
+.block-afisha p {
+  line-height: 140%;
+}
+.title-page {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 30px 0;
+  text-align: center;
+}
+
+.afisha-img {
+  width: auto;
+  height: 450px;
+}
+
+.info-afisha {
+  width: 500px;
+}
+
+.block-afisha .title {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 140%;
+}
+.block-afisha {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  width: 100%;
+  margin: 30px 0;
+}
+
+.info-afisha .description {
+    margin-bottom: 20px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.info-afisha ul li {
+  font-size: 16px;
+  list-style: none;
+  gap: 30px;
+  line-height: 240%;
+}
+
+.info-afisha ul {
+    margin: 15px 0;
+}
+
+.btn-buy {
+    background-color: #05B093;
+    border-radius: 26px;
+    padding: 15px 20px;
+    color: white;
+    margin: 25px 0;
+    font-weight: 600;
+}
+
+.galeria img{ 
+    width: 400px;
+    height: 200px;
+}
+
+.galeria {
+    display: flex;
+    gap: 20px;
 }
