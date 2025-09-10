@@ -20,16 +20,22 @@ body {
   flex-direction: column;
 }
 
+.header-content {
+  max-width: 1400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 header {
   display: flex;
   background-color: var(--black);
   color: white;
   padding: 15px;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: center;
 }
 
-header nav ul {
+.header-content nav ul {
   padding-left: 20px;
 }
 
@@ -38,7 +44,7 @@ a {
   color: white;
 }
 
-header nav ul li {
+.header-content nav ul li {
   display: inline-block;
   position: relative;
   align-items: center;
@@ -56,10 +62,12 @@ footer {
   color: white;
   padding: 40px 20px 20px;
   margin-top: auto;
+  display: flex;
+  justify-content: center;
 }
 
 .footer-content {
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
@@ -147,8 +155,6 @@ main {
   width: 100%;
 }
 
-
-
 .info-afisha ul li {
   font-size: 16px;
   list-style: none;
@@ -184,11 +190,11 @@ header li:before {
 }
 
 .hero {
-    display: flex;
-    gap: 30px;
-    justify-content: center;
-    width: 100%;
-    margin-top: 50px;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  width: 100%;
+  margin-top: 50px;
 }
 
 .hero img {
