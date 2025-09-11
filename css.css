@@ -435,6 +435,19 @@ header li:before {
     margin-bottom: 7vw;
     margin-top: 160px;
 }
+.post-section-header {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    /* justify-content: space-between; */
+    /* margin-bottom: 7vw; */
+    margin-top: 50px;
+}
+
+.post-title-section{
+    font-size: 35px;
+    color: #333;
+}
 
 .section-header h2 {
     font-size: 32px;
@@ -508,6 +521,7 @@ header li:before {
 /* News style */
 #news .title-section {
     font-size: 48px;
+    text-align: center;
     color: var(--black);
 }
 
