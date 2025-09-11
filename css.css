@@ -328,21 +328,30 @@ header li:before {
 
 /* Brief announcements style */
 #brief-announcements {
-	width: 85vw;
 	margin: auto;
+	width: 100%;
 	margin-bottom: 150px;
 }
 
+#brief-announcements .section-header {
+	width: 70%;
+	margin: auto;
+	margin-top: 7vw;
+	margin-bottom: 5vw;
+}
+
 #brief-announcements .event-cards {
+	margin: auto;
+	width: 70%;
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
 }
 
 #brief-announcements .event-card .event-date {
-	width: 7vw;
-	height: 7vw;
-	border-radius: 0.8vw;
+	width: 5vw;
+	height: 5vw;
+	border-radius: 0.4vw;
 	background-color: var(--accent);
 	color: var(--white);
 	display: flex;
@@ -355,23 +364,23 @@ header li:before {
 #brief-announcements .event-card {
 	display: flex;
 	align-items: center;
-	gap: 1.9vw;
+	gap: 10px;
 	margin-bottom: 1vw;
 }
 
 #brief-announcements .event-title {
 	font-family: "Fira Sans", sans-serif;
 	font-weight: 600;
-	font-size: 14px;
+	font-size: 12px;
 	white-space: nowrap;
 }
 
 #brief-announcements .event-day {
-	font-size: 2rem;
+	font-size: 24px;
 }
 
 #brief-announcements .event-mounth {
-	font-size: 1.125rem;
+	font-size: 14px;
 }
 
 /* News style */
@@ -382,19 +391,23 @@ header li:before {
 
 #news {
 	display: flex;
-	width: 85vw;
-	margin: auto;
+	justify-content: center;
+	gap: 80px;
 	margin-top: 134px;
 }
 
+#news .news-container {
+	width: 35%;
+}
+
 #news .news-cards {
-	margin-top: 4.5vw;
+	margin-top: 3vw;
 	display: flex;
 	justify-content: left;
 }
 
 #news .news-cards .news-card {
-	width: 40%;
+	width: 50%;
 }
 
 #news .news-cards .news-card:nth-child(2) {
@@ -403,7 +416,7 @@ header li:before {
 
 #news .news-cards .news-card img {
 	width: 100%;
-	border-radius: 0.8vw;
+	border-radius: 0.4vw;
 }
 
 #news .news-cards .news-card .news-title {
@@ -422,7 +435,7 @@ header li:before {
 
 /* Calendar style */
 .calendar {
-	width: 75%;
+	width: 30%;
 }
 
 .calendar button {
@@ -450,14 +463,14 @@ header li:before {
 	top: 79%;
 	left: 5%;
 	color: white;
-	font-size: 32px;
+	font-size: 24px;
 	margin: 0;
 	white-space: nowrap;
 }
 
 .calendar .row button {
-	width: 2.5vw;
-	height: 2.5vw;
+	width: 1.8vw;
+	height: 1.8vw;
 	color: var(--white);
 	margin-bottom: 0.3vw;
 }
@@ -468,10 +481,10 @@ header li:before {
 }
 
 .calendar .month-btn-block .btns button {
-	width: 2.5vw;
-	height: 2.5vw;
+	width: 1.8vw;
+	height: 1.8vw;
 	background-color: var(--accent);
-	border-radius: 0.6vw;
+	border-radius: 0.4vw;
 	display: flex;
 	justify-content: center;
 	align-items: center;
