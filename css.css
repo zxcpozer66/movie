@@ -525,9 +525,10 @@ header li:before {
 
 /* News style */
 #news .title-section {
-	font-size: 48px;
+	font-size: 32px;
 	text-align: center;
 	color: var(--black);
+	text-align: left;
 }
 
 #news {
