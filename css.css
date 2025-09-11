@@ -306,3 +306,147 @@ header li:before {
 #brief-announcements .event-mounth {
 	font-size: 1.125rem;
 }
+
+/* News style */
+#news .title-section {
+	font-size: 48px;
+	color: var(--black);
+}
+
+#news {
+	display: flex;
+	width: 85vw;
+	margin: auto;
+	margin-top: 134px;
+}
+
+#news .news-cards {
+	margin-top: 4.5vw;
+	display: flex;
+	justify-content: left;
+}
+
+#news .news-cards .news-card {
+	width: 40%;
+}
+
+#news .news-cards .news-card:nth-child(2) {
+	margin-left: 24px;
+}
+
+#news .news-cards .news-card img {
+	width: 100%;
+	border-radius: 0.8vw;
+}
+
+#news .news-cards .news-card .news-title {
+	margin-top: 2.3vw;
+	font-size: 24px;
+	color: var(--black);
+}
+
+#news .news-cards .news-card .news-description {
+	margin-top: 1.7vw;
+	color: #191919;
+	opacity: 70%;
+	font-family: "Fira Sans", sans-serif;
+	font-weight: 500;
+}
+
+/* Calendar style */
+.calendar {
+	width: 75%;
+}
+
+.calendar button {
+	transition: 0.3s ease;
+}
+
+.calendar button:hover {
+	opacity: 0.8;
+	cursor: pointer;
+}
+
+.calendar .preview {
+	width: 100%;
+	position: relative;
+}
+
+.calendar .preview img {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+.calendar .preview p {
+	position: absolute;
+	top: 79%;
+	left: 5%;
+	color: white;
+	font-size: 32px;
+	margin: 0;
+	white-space: nowrap;
+}
+
+.calendar .row button {
+	width: 2.5vw;
+	height: 2.5vw;
+	color: var(--white);
+	margin-bottom: 0.3vw;
+}
+
+.calendar .month-btn-block .btns {
+	display: flex;
+	gap: 0.3vw;
+}
+
+.calendar .month-btn-block .btns button {
+	width: 2.5vw;
+	height: 2.5vw;
+	background-color: var(--accent);
+	border-radius: 0.6vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.calendar .month-btn-block .btns button img {
+	width: 20%;
+}
+
+.calendar .container {
+	display: flex;
+	background-color: rgba(25, 25, 25, 0.05);
+	border-radius: 0 0 12px 12px;
+	padding: 1.7vw;
+	justify-content: space-between;
+}
+
+.calendar .container .month-btn-block {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.bg-gray {
+	background-color: rgba(25, 25, 25, 0.3);
+}
+
+.bg-nautical {
+	background-color: var(--accent);
+}
+
+.calendar .date-picker .day-picker .row {
+	display: flex;
+	flex-wrap: nowrap;
+	gap: 0.3vw;
+}
+
+.calendar .date-picker .day-picker .row:nth-child(1) button {
+	border-radius: 0.3vw;
+}
+
+.calendar .month-btn-block p {
+	font-size: 32px;
+	color: var(--black);
+}
