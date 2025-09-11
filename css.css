@@ -315,6 +315,11 @@ header li:before {
 	gap: 32px;
 	color: var(--black);
 	font-size: 22px;
+	transition: 0.3s ease;
+}
+
+.section-header a:hover {
+	opacity: 0.8;
 }
 
 .section-header img {
